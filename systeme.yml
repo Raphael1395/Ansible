@@ -1,7 +1,5 @@
 ---
-- name : Install
- hosts : all
- become : yes
- become-user : root
- roles : 
-        - "roles/commun"
+- hosts: all
+  remote_user: root
+ #become: yes
+ # become-user: root
