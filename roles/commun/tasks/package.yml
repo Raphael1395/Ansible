@@ -1,0 +1,16 @@
+---
+- name: Install package VIM
+ package:
+	name: vim
+	state: present
+
+- name: Install package htop
+ package:
+	name: htop
+	state: present
+
+- name: Install package ifconfig
+  package:
+          name: ifconfig
+          state: present
+             

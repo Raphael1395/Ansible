@@ -1,0 +1,7 @@
+---
+- name : Install
+ hosts : all
+ become : yes
+ become-user : root
+ roles : 
+        - "roles/commun"
