@@ -1,8 +1,8 @@
 ---
 - name: Add group itesciadmin
   group:
-          name : itescia
-          stat: present
+          name: itescia
+          state: present
 
 - name: Add user itesciadmin
   user:
