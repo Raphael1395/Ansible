@@ -1,5 +1,5 @@
 ---
- packages:
-         - htop
-         - vim
-         - ifconfig
+packages:
+        - htop
+        - vim
+        - ifconfig
