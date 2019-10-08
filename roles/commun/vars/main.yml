@@ -2,4 +2,4 @@
 packages:
         - htop
         - vim
-        - ifconfig
+        - tmux
