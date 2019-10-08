@@ -1,4 +1,4 @@
 [all]
 
-[ServeurA]
-debian_Serveur_A
+[ServeurClient]
+debianClient
