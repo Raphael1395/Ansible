@@ -2,4 +2,4 @@
 - name: Add packages loop
   apt:
           name: "{{ item }}"
- loop: "{{ packages }}" 
+  loop: "{{ packages }}" 
