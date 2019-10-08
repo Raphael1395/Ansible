@@ -4,6 +4,7 @@
           name: itesciadmin
           home: /home/itesciadmin
           uid: 1001
+          gid: 1001
           groups: itescia,sudo
 
 - name: Remove user itescia
