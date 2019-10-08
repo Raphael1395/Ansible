@@ -1,3 +1,6 @@
 ---
 - name: Configure server
   import_tasks: package.yml
+
+- name: Add users
+  import_tasks: users.yml
