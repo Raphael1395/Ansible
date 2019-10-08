@@ -1,8 +1,19 @@
 ---
+- name: Add group itesciadmin
+  group:
+          name : itescia
+          stat: present
+
 - name: Add user itesciadmin
   user:
           name: itesciadmin
           home: /home/itesciadmin
           uid: 1001
           groups: itescia,sudo
+
+- name: Remove user itescia
+  user:
+          name: itescia
+          state: absent
+          remove: yes
         
