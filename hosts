@@ -1,7 +1,7 @@
 [all]
 
-[apache]
-apache.itescia19.local
+[mysql]
+10.0.2.15
 
-[database]
-database.itescia19.local
+#[database]
+#database.itescia19.local
