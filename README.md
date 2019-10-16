@@ -1,9 +1,9 @@
-Refer to wiki to install.
 
-To play your playbook :
+
+playbook :
 
 ansible-playbook system.yml -i hosts
 
-To install a role from ansible galaxy :
+install role ansible galaxy :
 
 ansible-galaxy install -r requirement.yml
