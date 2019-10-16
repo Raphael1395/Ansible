@@ -1,0 +1,16 @@
+---
+mysql_root_password: itesciadb
+mysql_config_file: /etc/mysql/mariadb.conf.d/50-server.cnf
+mysql_bind_address: '10.0.2.5'
+mysql_datadir: /var/lib/mysql
+mysql_socket: /var/run/mysqld/mysqld.sock
+mysql_pid_file: /var/run/mysqld/mysqld.pid
+mysql_users:
+        - name: mysql-backup
+          password: backupwd
+          priv: "*.*:ALL"
+
+        - name: client1
+          password: clientpwd
+          host: "%"
+

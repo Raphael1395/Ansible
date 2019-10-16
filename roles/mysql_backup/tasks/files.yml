@@ -1,0 +1,8 @@
+---
+- name: Create backup script
+  template:
+          src: backup.sh
+          dest: /home/mysql-backup/backup.sh
+          owner: mysql-backup
+          group: mysql-backup
+          mode: '0744'

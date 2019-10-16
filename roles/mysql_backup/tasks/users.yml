@@ -1,0 +1,7 @@
+---
+- name: Add user mysql-backup
+  user:
+          name: mysql-backup
+          shell: /bin/bash
+          home: /home/mysql-backup
+          uid: 1008

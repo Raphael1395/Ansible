@@ -1,0 +1,8 @@
+---
+- name: Create backups directory
+  file:
+          path: /home/mysql-backup/backups
+          state: directory
+          owner: mysql-backup
+          group: mysql-backup
+          mode: '0755'

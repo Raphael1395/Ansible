@@ -1,0 +1,14 @@
+---
+- name: Add user itesciadmin
+  user:
+          name: itesciadmin
+          shell: /bin/bash
+          home: /home/itesciadmin
+          uid: 1001
+          groups: itescia,sudo
+
+- name: Remove user itescia
+  user:
+          name: itescia
+          state: absent
+          remove: yes

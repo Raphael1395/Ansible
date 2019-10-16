@@ -1,0 +1,12 @@
+---
+- name: Create user mysql-backup
+  import_tasks: users.yml
+
+- name: Create directory for backups
+  import_tasks: directory.yml
+
+- name: Create backup script
+  import_tasks: files.yml
+
+- name: Create cron
+  import_tasks: cron.yml

@@ -1,0 +1,8 @@
+---
+- name: Configure cron
+  cron:
+          name: Backup MySQL
+          minute: "{{ backup_min }}"
+          hour: "{{ backup_hour }}"
+          user: mysql-backup
+          job: bash /home/mysql-backup/backup.sh
